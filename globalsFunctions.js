@@ -302,6 +302,7 @@ var nbLoadedImage = 0;
 function loadImg(src){
 	nbHaveToLoadImage++;
 	var imageObj = new Image();
+	imageObj.crossOrigin = 'Anonymous';
 	imageObj.onload = function() {
 		nbLoadedImage++;
 	};
