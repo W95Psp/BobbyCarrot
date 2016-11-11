@@ -6,3 +6,8 @@ I made this game in 2010 or 2011, something like that, and I've just found it in
 It's made in HTML5, supports tactile gesture (well, it should).
 
 I took the original 30 levels of the game, so it's really like the original!
+
+## How to play
+Just open the following link in any modern browser
+
+https://cdn.rawgit.com/W95Psp/BobbyCarrot/cf86657051fe2694882362d17fd9f0e471dc6bc4/index.html
