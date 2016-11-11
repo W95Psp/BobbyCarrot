@@ -11,3 +11,5 @@ I took the original 30 levels of the game, so it's really like the original!
 Just open the following link in any modern browser
 
 https://cdn.rawgit.com/W95Psp/BobbyCarrot/cf86657051fe2694882362d17fd9f0e471dc6bc4/index.html
+
+(The menu is in french, just click on the first item, "Charger la partie", it will continue - or create - a game)
