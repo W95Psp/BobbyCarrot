@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0
+MIDlet-Name: Bobby Carrot
+MIDlet-1: Bobby Carrot, BobbyCarrot.png, Bobby
+MIDlet-Icon: BobbyCarrot.png
+MIDlet-Version: 1.0
+MIDlet-Vendor: mob.ua
+Nokia-MIDlet-Category: Game
+SiteURL: wap.mob.ua

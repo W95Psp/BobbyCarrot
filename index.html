@@ -1,0 +1,53 @@
+<style>
+body, html{
+padding: 0px;
+margin: 0px;
+-webkit-user-select: none;
+}
+</style>
+<!doctype>
+<html>
+	<head>
+	</head>
+	<body>
+		<CANVAS onmousedown="iEvents.clickDown = true;	iEvents.clickOrTouchDown = true; startClick();"
+			onmouseup="endClick();iEvents.clickUp = true; 		iEvents.clickOrTouchDown = false; "
+			id=htmlCanvas></CANVAS>
+
+
+		<audio id='audio_1'> 
+			<source src="musiques/title.mp3" type='audio/mpeg'/>
+			<source src="musiques/title.ogg" type='audio/ogg'/>
+			<source src="musiques/title.aac" type='audio/aac'/>
+		</audio>
+		<audio id='audio_2'> 
+		  <source src="musiques/end.ogg" type='audio/ogg'/>
+		  <source src="musiques/end.mp3" type='audio/mpeg'/>
+			<source src="musiques/end.aac" type='audio/aac'/>
+		</audio>
+		<audio id='audio_3'> 
+		  <source src="musiques/death.ogg" type='audio/ogg'/>
+		  <source src="musiques/death.mp3" type='audio/mpeg'/>
+			<source src="musiques/death.aac" type='audio/aac'/>
+		</audio>
+		<audio id='audio_4'> 
+		  <source src="musiques/cleared.ogg" type='audio/ogg'/>
+		  <source src="musiques/cleared.mp3" type='audio/mpeg'/>
+			<source src="musiques/cleared.aac" type='audio/aac'/>
+		</audio>
+		<div id='out'>
+
+		</div>
+	</body>
+		<script src="globalsFunctions.js"></script>
+		<script src="js/before.js"></script>
+		<script src="js/loose.js"></script>
+		<script src="js/loadLvlFromHexa.js"></script>
+		<script src="js/lvls.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/win.js"></script>
+		<script src="js/draw.js"></script>
+		<script src="js/update.js"></script>
+		<script src="js/game_onstart.js"></script>
+		<script src="js/script.js"></script>
+</html>
